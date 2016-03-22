@@ -1,0 +1,28 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{{\it et al.}~[HPS~Collaboration](2015)}]{paper_testrun}
+\bibinfo{author}{P.~H.~A. {\it et al.}~[HPS~Collaboration]},
+\newblock \bibinfo{title}{The heavy photon search test detector},
+\newblock \bibinfo{journal}{Nucl. Instrum. Meth.} \bibinfo{volume}{A777}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{91 --101}.
+%Type = Misc
+\bibitem[{Raymond et~al.(2000)}]{apv25_2}
+\bibinfo{author}{M.~Raymond}, et~al., \bibinfo{title}{{The CMS tracker APV25
+  0.25~$\mu$m CMOS readout chip}}, \bibinfo{year}{2000}.
+%Type = Misc
+\bibitem[{cod(20XX)}]{coda}
+\bibinfo{title}{{CODA}}, \bibinfo{year}{20XX}.
+
+\end{thebibliography}
